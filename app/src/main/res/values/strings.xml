@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tema3-4</string>
+    <string name="textViewerTitulo">Escriba su nombre</string>
+    <string name="editTextTextPersonName"></string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="textViewSeleccion">Elige color</string>
+</resources>
