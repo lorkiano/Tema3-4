@@ -4,4 +4,7 @@
     <string name="editTextTextPersonName"></string>
     <string name="btnEnviar">Enviar</string>
     <string name="textViewSeleccion">Elige color</string>
+    <string name="rbRojo">Rojo</string>
+    <string name="rbVerde">Verde</string>
+    <string name="rbAmarillo">Amarillo</string>
 </resources>

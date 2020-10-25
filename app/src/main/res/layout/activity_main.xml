@@ -36,16 +36,48 @@
         android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:text="@string/btnEnviar"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="434dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdColores" />
 
     <TextView
         android:id="@+id/textViewSeleccion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="177dp" />
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/textViewSeleccion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <RadioGroup
+        android:id="@+id/rdColores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSeleccion">
+
+        <RadioButton
+            android:id="@+id/rbRojo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbRojo" />
+
+        <RadioButton
+            android:id="@+id/rbVerde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbVerde" />
+
+        <RadioButton
+            android:id="@+id/rbAmarillo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbAmarillo" />
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
